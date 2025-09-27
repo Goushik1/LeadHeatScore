@@ -3,20 +3,17 @@ import axios from "axios";
 
 function Metrics() {
   const [metrics, setMetrics] = useState(null);
-
   useEffect(() => {
     axios
       .get("http://localhost:5000/metrics")
       .then((res) => setMetrics(res.data));
   }, []);
-
   const [abTest, setAbTest] = useState(null);
   useEffect(() => {
     axios
       .get("http://localhost:5000/abtest_summary")
       .then((res) => setAbTest(res.data));
   }, []);
-
   if (!metrics || !abTest) return <p className="loading">Loading metrics...</p>;
 
   return (

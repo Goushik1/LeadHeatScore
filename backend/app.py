@@ -104,6 +104,42 @@ def metrics():
         "reliability_plot": reliability_plot
     })
 
+# A/B test endpoint with RAG insights
+manual_scores = [{"message_type": "template", "score": 4},
+    {"message_type": "rag", "score": 5},
+    {"message_type": "template", "score": 3},]
+
+@app.route("/abtest_score", methods=["POST"])
+def abtest_score_endpoint():
+    data = request.json
+    msg_type = data.get("message_type")  # "template" or "rag"
+    score = data.get("score")  # integer 1-5
+
+    if msg_type not in ("template", "rag") or not (1 <= score <= 5):
+        return jsonify({"error": "Invalid input"}), 400
+
+    manual_scores.append({"message_type": msg_type, "score": score})
+    return jsonify({"status": "success"})
+
+@app.route("/abtest_summary", methods=["GET"])
+def abtest_summary_endpoint():
+    if not manual_scores:
+        return jsonify({"error": "No scores found"}), 404
+
+    df_scores = pd.DataFrame(manual_scores)
+    avg_scores = df_scores.groupby("message_type")["score"].mean().to_dict()
+    
+    try:
+        scored_leads_df = pd.DataFrame(manual_scores)  
+        top3_by_class = []
+        for cls in ["Hot", "Warm", "Cold"]:
+            cls_df = scored_leads_df[scored_leads_df.get("class","") == cls].sort_values("score", ascending=False).head(3)
+            top3_by_class.extend(cls_df.to_dict(orient="records"))
+        avg_scores["top_3_per_class"] = top3_by_class
+    except Exception:
+        pass
+
+    return jsonify(avg_scores)
 
 # Load policy doc
 with open("policy.txt", "r", encoding="utf-8") as f:
@@ -448,49 +484,6 @@ def calibration_endpoint():
         "top_3_per_class": top3_by_class
     })
 
-
-# A/B test endpoint with RAG insights
-manual_scores = []
-
-@app.route("/abtest_score", methods=["POST"])
-def abtest_score_endpoint():
-    data = request.json
-    msg_type = data.get("message_type")  # "template" or "rag"
-    score = data.get("score")  # integer 1-5
-
-    if msg_type not in ("template", "rag") or not (1 <= score <= 5):
-        return jsonify({"error": "Invalid input"}), 400
-
-    manual_scores.append({"message_type": msg_type, "score": score})
-    return jsonify({"status": "success"})
-
-
-@app.route("/abtest_summary", methods=["GET"])
-def abtest_summary_endpoint():
-    if not manual_scores:
-        return jsonify({"error": "No scores found"}), 404
-
-    df_scores = pd.DataFrame(manual_scores)
-    avg_scores = df_scores.groupby("message_type")["score"].mean().to_dict()
-    
-    try:
-        scored_leads_df = pd.DataFrame(manual_scores)  
-        top3_by_class = []
-        for cls in ["Hot", "Warm", "Cold"]:
-            cls_df = scored_leads_df[scored_leads_df.get("class","") == cls].sort_values("score", ascending=False).head(3)
-            top3_by_class.extend(cls_df.to_dict(orient="records"))
-        avg_scores["top_3_per_class"] = top3_by_class
-    except Exception:
-        pass
-
-    return jsonify(avg_scores)
-
-@app.route("/data_status", methods=["GET"])
-def data_status():
-    return jsonify({
-        "metrics_available": bool(len(y_test) > 0),
-        "abtest_available": bool(len(manual_scores) > 0)
-    })
 
 if __name__ == "__main__":
     app.run(debug=True, port=5000)

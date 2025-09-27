@@ -1,13 +1,23 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import axios from "axios";
 import Papa from "papaparse";
 
 export default function LeadDashboard() {
   const [leads, setLeads] = useState([]);
-  const [selectedLeads, setSelectedLeads] = useState([]);
-  const [recommendations, setRecommendations] = useState([]);
+  const [selectedLeads, setSelectedLeads] = useState(() => {
+    return JSON.parse(sessionStorage.getItem("selectedLeads") || "[]");
+  });
+  const [recommendations, setRecommendations] = useState(() => {
+    return JSON.parse(sessionStorage.getItem("recommendations") || "[]");
+  });
   const [loading, setLoading] = useState(false);
+  useEffect(() => {
+    sessionStorage.setItem("selectedLeads", JSON.stringify(selectedLeads));
+  }, [selectedLeads]);
 
+  useEffect(() => {
+    sessionStorage.setItem("recommendations", JSON.stringify(recommendations));
+  }, [recommendations]);
   const handleCSVUpload = (e) => {
     const file = e.target.files[0];
     if (!file) return;
@@ -32,6 +42,15 @@ export default function LeadDashboard() {
     });
   };
 
+  useEffect(() => {
+    const handleBeforeUnload = () => {
+      sessionStorage.removeItem("selectedLeads");
+      sessionStorage.removeItem("recommendations");
+    };
+    window.addEventListener("beforeunload", handleBeforeUnload);
+    return () => window.removeEventListener("beforeunload", handleBeforeUnload);
+  }, []);
+
   const pickTopLeads = () => {
     const classes = ["Hot", "Warm", "Cold"];
     let picked = [];
@@ -54,7 +73,6 @@ export default function LeadDashboard() {
         const response = await axios.post("http://localhost:5000/recommend", {
           lead_json: lead,
         });
-        // Include the lead class here
         return { lead_id: lead.lead_id, class: lead.class, ...response.data };
       })
     );
