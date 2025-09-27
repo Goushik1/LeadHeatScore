@@ -9,10 +9,14 @@ scikit-learn
 xgboost
 matplotlib
 langchain
+langchain-groq
 sentence-transformers
 tqdm
 requests
 python-dotenv
+pymongo
+elasticsearch
+numpy
 
 # Python ≥ 3.10 required
 
