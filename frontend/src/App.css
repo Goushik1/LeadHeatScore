@@ -1,0 +1,226 @@
+/* ---------------- Global Styles ---------------- */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f7fc;
+  color: #333;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+/* ---------------- Layout ---------------- */
+.app-container {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #1e3a8a;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.sidebar ul {
+  flex-grow: 1;
+}
+
+.sidebar li {
+  margin: 15px 0;
+}
+
+.sidebar a {
+  display: block;
+  padding: 10px;
+  border-radius: 5px;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+.sidebar a:hover,
+.sidebar a.active {
+  background-color: #2563eb;
+}
+
+.main-content {
+  flex-grow: 1;
+  padding: 30px;
+  overflow-y: auto;
+  background-color: #fff;
+}
+
+/* ---------------- Dashboard Page ---------------- */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+input[type="file"] {
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #2563eb;
+  color: #fff;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.recommendation-card {
+  background-color: #fff;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.recommendation-card p {
+  margin: 10px 0;
+}
+
+/* ---------------- Metrics Page ---------------- */
+.metrics-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card h3 {
+  font-size: 1.25rem;
+  margin-bottom: 15px;
+}
+
+.card p {
+  margin: 10px 0;
+}
+
+.card pre {
+  background-color: #f9fafb;
+  padding: 10px;
+  border-radius: 5px;
+  overflow-x: auto;
+}
+
+.card img {
+  max-width: 100%;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+/* ---------------- Loader ---------------- */
+.loading {
+  font-size: 1.25rem;
+  color: #2563eb;
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* ---------------- Top Leads Cards ---------------- */
+.top-leads-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.top-lead-card {
+  background-color: #ffffff;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.top-lead-card:hover {
+  transform: translateY(-4px);
+}
+
+.top-lead-card.hot {
+  border-left: 6px solid #ef4444; /* red */
+}
+
+.top-lead-card.warm {
+  border-left: 6px solid #f59e0b; /* orange */
+}
+
+.top-lead-card.cold {
+  border-left: 6px solid #10b981; /* green */
+}
+
+/* ---------------- Recommendation Cards ---------------- */
+.recommendation-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #fff;
+  position: relative;
+}
+
+/* Add left color bar for Hot/Warm/Cold */
+.recommendation-card.hot {
+  border-left: 6px solid #ff6b6b;
+}
+
+.recommendation-card.warm {
+  border-left: 6px solid #ffa94d;
+}
+
+.recommendation-card.cold {
+  border-left: 6px solid #74c0fc;
+}

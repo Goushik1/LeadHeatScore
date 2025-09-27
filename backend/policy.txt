@@ -1,0 +1,53 @@
+from langchain.prompts import ChatPromptTemplate
+
+prompt_template = ChatPromptTemplate.from_messages([
+    ("system", "You are an outreach assistant. Follow the policy document strictly."),
+    ("user", """
+Generate the first outreach message ONLY.
+Return output as JSON as per schema.
+
+Policy Document: {policy_doc}
+Lead Info: {lead_info}
+Persona Snippet: {persona_snippet}
+
+Engagement Strategy:
+
+- Hot leads:
+  • Use exclusivity (VIP vouchers, early access, loyalty perks).
+  • Add surprise rewards (hidden deals, bonus points).
+  • Strong CTA: Choose any of these options:
+      - Schedule a VIP call within 24–48 hours
+      - Join a live workshop this week
+      - Redeem your exclusive voucher today  • Channel: WhatsApp.
+  • Tone: Rewarding, appreciative, professional, and friendly.
+
+- Warm leads:
+  • Share limited-time coupons or expiring offers.
+  • Provide personalized product/service recommendations.
+  • Add gamification (spin-to-win, referral rewards).
+  • Moderate CTA: Invite to webinar, resource, or subscription (no strict 48-hour push).
+  • Channel: Email.
+  • Tone: Encouraging, resourceful, friendly.
+
+- Cold leads:
+  • Provide welcome voucher or first-purchase discount.
+  • Highlight best-selling/trending picks.
+  • Add social proof (reviews, ratings).
+  • Gentle CTA: Newsletter signup or free resource.
+  • Channel: Email with minimal frequency.
+  • Tone: Simple, welcoming, trust-building.
+
+Message Requirements:
+- Keep between 2–4 sentences.
+- Personalize using role, region, prior interest, and persona snippet.
+- Do NOT include sensitive attributes.
+- Each JSON output must include:
+  {{
+    "message": "<the outreach message>",
+    "channel": "<whatsapp/email>",
+    "cta": "<the main CTA>",
+    "engagement_level": "<hot/warm/cold>",
+    "rationale": "<why this tone/channel/cta was chosen based on classification>"
+  }}
+"""),
+])

@@ -1,0 +1,301 @@
+lead_id,source,campaign,region,role,prior_course_interest,page_views,last_touch_days,recency_days,email_opens,webinar_attended,form_submissions,prior_purchases,region_engagement_score,time_spent_minutes,label_conversion,label_class
+LEAD-100074,Google Ads,Webinar2025,Australia,Director,Leadership; Data Science,18,6,22,11,No,2,0,61.81,249,1,Cold
+LEAD-101117,Organic,Webinar2025,Australia,VP,Strategy,20,20,20,1,No,1,1,55.3,236,0,Cold
+LEAD-101400,Google Ads,Summer2025,Australia,Manager,Marketing; Data Science; Machine Learning,11,8,8,3,Yes,1,0,57.96,14,0,Cold
+LEAD-101148,Google Ads,Webinar2025,Europe,VP,Marketing; Machine Learning,24,6,29,5,No,5,1,53.88,277,0,Warm
+LEAD-101754,Facebook,Summer2025,Australia,Analyst,Leadership,7,15,2,2,Yes,0,0,19.99,230,0,Cold
+LEAD-100466,Referral,Summer2025,Asia,VP,Data Science; Marketing,32,0,2,4,No,0,3,66.48,19,1,Hot
+LEAD-100152,Organic,Summer2025,Australia,Manager,Machine Learning; Data Science,13,9,9,12,No,1,2,48.7,64,1,Hot
+LEAD-100591,Google Ads,Webinar2025,Europe,Manager,Marketing; Strategy; Machine Learning,28,3,12,10,No,3,1,58.76,96,1,Cold
+LEAD-100081,Referral,Webinar2025,Australia,Intern,Strategy; Data Science; Machine Learning,24,2,24,9,No,3,0,97.73,243,1,Hot
+LEAD-100720,Organic,Spring2025,North America,Director,Marketing; Machine Learning,35,10,11,2,No,5,2,76.14,244,1,Warm
+LEAD-101441,LinkedIn,Summer2025,Australia,Analyst,Marketing,22,9,27,3,Yes,3,1,48.15,66,0,Cold
+LEAD-100671,Organic,Summer2025,North America,Analyst,Leadership; Data Science,26,3,30,10,Yes,4,1,40.17,202,1,Hot
+LEAD-101030,LinkedIn,Spring2025,Europe,Director,Marketing; Leadership,13,12,7,10,Yes,2,1,40.5,265,0,Warm
+LEAD-100119,Organic,Webinar2025,Australia,VP,Machine Learning; Data Science,38,9,18,8,Yes,2,1,62.83,229,1,Warm
+LEAD-101350,Organic,Spring2025,Asia,VP,Machine Learning,8,16,24,6,No,3,0,30.02,243,0,Warm
+LEAD-101214,Google Ads,Summer2025,Asia,Manager,Marketing; Data Science; Machine Learning,8,6,11,9,Yes,1,1,51.24,131,0,Warm
+LEAD-100041,LinkedIn,Summer2025,North America,Manager,Data Science; Marketing,36,10,3,3,Yes,1,3,60.22,282,1,Hot
+LEAD-101442,Google Ads,Spring2025,Asia,Analyst,Leadership,26,20,1,7,No,0,1,57.82,21,0,Hot
+LEAD-100492,Facebook,Webinar2025,North America,VP,Data Science,19,4,21,8,Yes,5,1,90.9,207,1,Warm
+LEAD-100682,Facebook,Summer2025,Europe,Analyst,Leadership; Strategy,24,1,22,7,Yes,0,3,92.12,54,1,Cold
+LEAD-101954,Referral,Summer2025,Asia,VP,Strategy; Machine Learning,7,9,28,3,No,4,1,32.82,293,0,Warm
+LEAD-101445,LinkedIn,Summer2025,Asia,Manager,Strategy; Leadership,12,14,30,3,Yes,5,0,46.92,147,0,Cold
+LEAD-100997,Google Ads,Spring2025,Europe,Manager,Data Science; Leadership,12,19,21,2,Yes,0,1,68.62,14,0,Hot
+LEAD-101548,Organic,Summer2025,North America,Intern,Leadership; Strategy,22,19,25,8,No,4,0,31.25,132,0,Warm
+LEAD-100200,Organic,Spring2025,Australia,Analyst,Leadership,31,8,17,7,Yes,4,2,81.47,112,1,Hot
+LEAD-100413,Referral,Spring2025,Asia,Manager,Leadership; Data Science,27,1,25,11,No,0,0,46.69,300,1,Warm
+LEAD-100994,Facebook,Webinar2025,Australia,Analyst,Leadership; Strategy,10,7,15,4,No,0,1,47.55,182,0,Cold
+LEAD-100834,Referral,Webinar2025,Europe,Intern,Strategy,25,17,9,4,Yes,5,1,55.92,179,0,Cold
+LEAD-100497,LinkedIn,Spring2025,North America,VP,Leadership; Machine Learning,17,0,3,12,Yes,2,3,81.44,263,1,Hot
+LEAD-101605,Facebook,Spring2025,Asia,Analyst,Data Science; Strategy; Machine Learning,21,8,28,5,No,2,1,12.27,142,0,Warm
+LEAD-101363,Facebook,Summer2025,Asia,Analyst,Data Science; Machine Learning,26,6,2,5,Yes,5,1,50.65,129,0,Warm
+LEAD-100635,Organic,Spring2025,North America,Analyst,Marketing; Data Science,27,9,5,5,No,3,0,65.27,205,1,Warm
+LEAD-101174,Google Ads,Webinar2025,Asia,Analyst,Leadership; Marketing,17,12,20,0,Yes,0,1,50.62,70,0,Hot
+LEAD-100488,Referral,Webinar2025,Europe,Manager,Strategy; Marketing,26,3,13,11,Yes,2,2,85.18,23,1,Hot
+LEAD-101691,LinkedIn,Spring2025,Europe,Manager,Strategy,9,10,25,5,No,5,0,19.46,18,0,Cold
+LEAD-101979,LinkedIn,Webinar2025,Europe,Intern,Leadership,6,16,9,6,Yes,2,1,71.08,255,0,Cold
+LEAD-100990,Referral,Spring2025,North America,VP,Marketing,17,6,12,6,Yes,1,0,47.29,176,0,Warm
+LEAD-100015,Referral,Summer2025,North America,Director,Marketing; Strategy; Machine Learning,27,10,19,11,Yes,5,1,64.44,21,1,Warm
+LEAD-101715,Facebook,Webinar2025,Australia,Intern,Machine Learning; Leadership,18,20,11,9,No,2,1,58.17,164,0,Cold
+LEAD-100060,Organic,Summer2025,Australia,Intern,Leadership; Machine Learning; Strategy,27,8,21,6,No,0,0,92.6,121,1,Warm
+LEAD-101101,Referral,Webinar2025,Australia,VP,Strategy; Marketing,4,20,20,2,No,2,0,36.38,150,0,Cold
+LEAD-101219,Referral,Spring2025,Australia,VP,Leadership,29,5,16,8,No,1,1,38.66,6,0,Cold
+LEAD-101929,Facebook,Summer2025,North America,Manager,Leadership; Marketing,17,11,17,5,No,1,1,27.98,71,0,Cold
+LEAD-101510,Facebook,Summer2025,Europe,Manager,Marketing; Leadership,5,14,25,4,Yes,4,1,47.84,34,0,Cold
+LEAD-100826,LinkedIn,Webinar2025,Europe,Intern,Data Science,22,6,29,4,Yes,2,1,54.05,51,0,Cold
+LEAD-101191,Referral,Spring2025,North America,Manager,Machine Learning; Strategy,31,9,23,9,No,4,0,73.74,90,0,Warm
+LEAD-101241,Facebook,Summer2025,Asia,Intern,Data Science,13,7,4,7,No,1,0,45.63,254,0,Hot
+LEAD-101408,Organic,Webinar2025,Australia,Intern,Leadership; Strategy; Machine Learning,8,17,20,5,No,0,0,59.69,215,0,Warm
+LEAD-101200,LinkedIn,Webinar2025,Europe,VP,Machine Learning,22,16,8,6,Yes,5,1,29.64,193,0,Cold
+LEAD-101446,Organic,Summer2025,Australia,Manager,Strategy; Marketing; Leadership,9,20,20,5,No,0,0,28.85,36,0,Warm
+LEAD-101600,Facebook,Summer2025,Europe,Analyst,Strategy; Data Science; Machine Learning,11,14,2,5,Yes,5,1,48.27,69,0,Cold
+LEAD-100158,Referral,Spring2025,Australia,Analyst,Marketing,28,8,8,5,No,1,0,99.87,235,1,Hot
+LEAD-101844,Facebook,Spring2025,North America,Intern,Machine Learning,18,18,7,7,No,4,0,41.8,46,0,Warm
+LEAD-101369,LinkedIn,Webinar2025,North America,VP,Strategy,27,13,25,3,No,3,0,41.87,293,0,Cold
+LEAD-100664,Facebook,Webinar2025,Europe,Intern,Strategy; Marketing; Machine Learning,35,9,13,4,No,5,2,81.35,12,1,Hot
+LEAD-101563,Organic,Summer2025,Asia,Manager,Data Science; Machine Learning,5,12,15,0,No,4,1,38.79,159,0,Warm
+LEAD-101672,Facebook,Webinar2025,Europe,Intern,Machine Learning; Leadership; Strategy,17,18,12,0,No,4,1,48.11,286,0,Cold
+LEAD-101923,Facebook,Spring2025,North America,Director,Data Science; Marketing,31,16,6,8,Yes,0,0,40.58,293,0,Cold
+LEAD-100395,Facebook,Webinar2025,Asia,VP,Leadership; Data Science,15,2,6,4,No,5,1,89.73,252,1,Hot
+LEAD-100101,Organic,Spring2025,North America,VP,Marketing; Leadership; Data Science,27,2,10,2,Yes,4,3,57.99,91,1,Hot
+LEAD-101093,LinkedIn,Spring2025,Europe,Analyst,Marketing; Machine Learning; Data Science,12,18,5,7,Yes,4,0,28.74,73,0,Warm
+LEAD-100160,LinkedIn,Webinar2025,Europe,Intern,Machine Learning; Strategy; Data Science,32,6,24,2,No,3,2,66.98,245,1,Hot
+LEAD-101896,Google Ads,Webinar2025,Asia,Director,Data Science,12,20,19,7,No,5,0,21.66,176,0,Warm
+LEAD-101263,Referral,Spring2025,Europe,VP,Leadership,12,17,16,1,No,2,0,65.43,115,0,Cold
+LEAD-101776,LinkedIn,Webinar2025,Europe,Manager,Marketing; Machine Learning,6,15,17,5,No,2,0,72.36,53,0,Cold
+LEAD-101989,LinkedIn,Summer2025,North America,Manager,Machine Learning; Strategy; Marketing,21,9,21,0,Yes,1,1,60.57,182,0,Warm
+LEAD-101967,Google Ads,Spring2025,Australia,Analyst,Data Science,8,5,4,2,No,4,1,31.55,207,0,Cold
+LEAD-100112,Facebook,Spring2025,North America,Analyst,Strategy; Leadership,38,5,0,8,No,1,1,69.86,114,1,Warm
+LEAD-100187,Referral,Spring2025,Europe,Manager,Machine Learning; Strategy; Leadership,24,7,22,11,Yes,0,1,69.43,158,1,Hot
+LEAD-100309,Facebook,Spring2025,North America,Director,Data Science,31,0,20,8,Yes,0,0,74.51,106,1,Hot
+LEAD-100954,Facebook,Spring2025,North America,Director,Machine Learning; Strategy,25,16,7,3,No,1,1,67.86,55,0,Cold
+LEAD-100086,Organic,Webinar2025,Australia,Manager,Strategy,24,2,7,4,No,0,3,70.49,295,1,Hot
+LEAD-101728,Google Ads,Webinar2025,Europe,Director,Marketing; Leadership,20,13,20,7,Yes,5,1,50.37,192,0,Cold
+LEAD-101654,LinkedIn,Spring2025,Australia,Analyst,Strategy; Marketing; Leadership,19,15,5,2,No,2,0,52.52,73,0,Cold
+LEAD-101888,Google Ads,Spring2025,Europe,Director,Strategy; Leadership; Data Science,11,5,26,0,Yes,3,1,72.21,279,0,Cold
+LEAD-101379,LinkedIn,Webinar2025,North America,Director,Machine Learning,9,20,11,8,No,5,1,51.05,283,0,Warm
+LEAD-100551,Google Ads,Summer2025,Asia,Intern,Data Science,16,10,25,6,Yes,5,1,76.16,117,1,Hot
+LEAD-100733,Google Ads,Summer2025,Europe,VP,Strategy; Marketing,42,1,26,12,Yes,0,1,109.21,213,1,Hot
+LEAD-100215,Organic,Webinar2025,Asia,VP,Marketing; Machine Learning,22,1,7,6,No,2,3,77.71,168,1,Cold
+LEAD-100769,Organic,Summer2025,Europe,VP,Data Science; Leadership,39,6,3,6,Yes,5,3,86.82,167,1,Warm
+LEAD-101311,LinkedIn,Webinar2025,Europe,Manager,Leadership; Strategy,22,11,25,8,Yes,3,1,49.33,124,0,Cold
+LEAD-101427,Referral,Summer2025,Europe,Manager,Machine Learning; Marketing; Strategy,15,19,21,1,Yes,0,0,57.13,180,0,Hot
+LEAD-100840,Organic,Webinar2025,Asia,VP,Strategy,23,15,24,7,Yes,0,1,40.14,162,0,Warm
+LEAD-101859,LinkedIn,Summer2025,Australia,Analyst,Strategy; Data Science,19,18,26,0,Yes,3,0,34.63,221,0,Cold
+LEAD-101812,LinkedIn,Spring2025,Asia,Analyst,Data Science,28,6,19,1,No,0,1,60.05,93,0,Hot
+LEAD-101775,Facebook,Summer2025,Europe,Manager,Strategy; Marketing,29,12,25,3,Yes,4,1,47.71,294,0,Cold
+LEAD-101184,Organic,Spring2025,Australia,Manager,Strategy; Leadership; Machine Learning,26,8,15,4,No,0,1,17.28,77,0,Warm
+LEAD-100766,Google Ads,Summer2025,North America,Intern,Machine Learning; Data Science; Marketing,40,0,24,11,No,1,0,68.21,165,1,Hot
+LEAD-101621,Organic,Summer2025,Asia,Manager,Data Science,11,18,23,2,Yes,3,0,36.34,67,0,Warm
+LEAD-100016,LinkedIn,Spring2025,North America,Manager,Machine Learning; Leadership,26,6,10,8,No,4,0,55.3,244,1,Cold
+LEAD-100745,LinkedIn,Summer2025,Europe,Director,Data Science,28,4,9,7,Yes,5,0,78.54,31,1,Hot
+LEAD-101974,Referral,Summer2025,Asia,Intern,Leadership; Marketing; Machine Learning,7,13,3,0,No,1,1,56.02,262,0,Hot
+LEAD-100601,Facebook,Spring2025,Australia,Intern,Leadership; Marketing; Machine Learning,36,10,10,13,No,4,0,92.91,267,1,Warm
+LEAD-101677,Organic,Summer2025,North America,Intern,Strategy; Marketing; Data Science,24,16,0,6,Yes,1,0,47.52,144,0,Hot
+LEAD-101810,Referral,Webinar2025,Australia,Analyst,Strategy; Marketing; Machine Learning,8,12,13,0,Yes,5,1,59.43,149,0,Cold
+LEAD-100441,LinkedIn,Summer2025,Australia,Director,Strategy; Marketing,11,4,4,8,Yes,5,0,91.98,257,1,Hot
+LEAD-100470,LinkedIn,Summer2025,North America,Intern,Marketing,12,5,2,13,No,4,2,83.95,132,1,Hot
+LEAD-101680,Google Ads,Spring2025,North America,Intern,Marketing; Leadership; Machine Learning,25,9,27,4,Yes,2,1,32.3,293,0,Warm
+LEAD-100912,Referral,Spring2025,Australia,Director,Strategy; Machine Learning; Data Science,18,5,27,4,Yes,4,0,54.08,80,0,Cold
+LEAD-100506,LinkedIn,Webinar2025,Asia,VP,Machine Learning; Data Science; Leadership,16,6,16,5,Yes,3,3,51.25,168,1,Hot
+LEAD-100147,Facebook,Summer2025,Australia,Manager,Machine Learning; Marketing; Strategy,35,3,16,2,Yes,0,2,53.94,68,1,Warm
+LEAD-101880,Referral,Summer2025,North America,Director,Marketing; Machine Learning,10,18,6,0,No,2,0,31.61,284,0,Cold
+LEAD-101719,Referral,Summer2025,Australia,Intern,Marketing; Strategy; Machine Learning,22,16,17,2,No,3,0,44.55,49,0,Warm
+LEAD-101509,Facebook,Spring2025,North America,Intern,Machine Learning; Marketing,29,16,13,4,Yes,4,0,44.43,278,0,Cold
+LEAD-101549,Google Ads,Webinar2025,North America,Manager,Strategy; Data Science,23,20,1,7,Yes,3,0,44.48,254,0,Cold
+LEAD-100026,Google Ads,Webinar2025,Europe,VP,Leadership; Machine Learning,31,8,30,8,Yes,5,2,82.55,82,1,Hot
+LEAD-101551,LinkedIn,Summer2025,Europe,Intern,Marketing; Leadership,11,15,27,3,No,1,1,23.58,75,0,Warm
+LEAD-101463,Organic,Summer2025,Australia,VP,Data Science; Machine Learning,10,13,29,0,Yes,3,0,18.35,202,0,Cold
+LEAD-101459,Google Ads,Spring2025,Asia,VP,Leadership; Marketing,10,20,18,4,Yes,0,1,30.3,179,0,Cold
+LEAD-101002,Referral,Summer2025,North America,Manager,Data Science; Marketing,14,15,15,0,Yes,4,0,23.15,87,0,Warm
+LEAD-100405,Facebook,Spring2025,Asia,Manager,Data Science; Leadership; Machine Learning,14,4,5,3,No,4,0,84.13,65,1,Hot
+LEAD-100701,Organic,Spring2025,Asia,Analyst,Strategy,34,6,2,10,No,5,0,77.23,201,1,Hot
+LEAD-101895,LinkedIn,Spring2025,Asia,VP,Machine Learning,14,14,1,3,No,4,1,61.79,24,0,Warm
+LEAD-100676,Organic,Webinar2025,North America,Analyst,Leadership; Marketing,22,4,4,12,Yes,2,3,75.69,209,1,Warm
+LEAD-100537,Referral,Spring2025,Australia,Manager,Data Science; Machine Learning,16,1,25,9,Yes,0,0,78.26,49,1,Hot
+LEAD-101678,Organic,Spring2025,North America,VP,Marketing; Data Science,12,14,16,3,Yes,3,1,21.17,196,0,Cold
+LEAD-100145,Organic,Webinar2025,Asia,VP,Data Science,35,6,27,7,No,5,1,85.85,34,1,Warm
+LEAD-100499,Referral,Summer2025,Asia,Analyst,Data Science; Machine Learning; Strategy,30,9,19,7,No,1,3,72.75,39,1,Hot
+LEAD-100468,Google Ads,Webinar2025,Europe,VP,Leadership,25,5,21,3,No,5,0,81.13,117,1,Warm
+LEAD-101083,Facebook,Spring2025,Asia,Director,Strategy,19,16,12,4,Yes,4,1,36.94,292,0,Cold
+LEAD-101982,LinkedIn,Spring2025,North America,VP,Leadership,20,6,27,2,No,2,1,68.45,214,0,Cold
+LEAD-101663,Organic,Spring2025,Australia,Director,Data Science,19,11,27,2,Yes,5,0,28.47,7,0,Cold
+LEAD-101671,LinkedIn,Spring2025,Australia,Analyst,Machine Learning; Data Science; Marketing,8,11,14,3,Yes,0,1,18.96,103,0,Cold
+LEAD-100153,Facebook,Webinar2025,Australia,Analyst,Data Science; Strategy,18,3,20,4,No,1,1,84.09,80,1,Hot
+LEAD-100011,Google Ads,Summer2025,Europe,Analyst,Strategy; Leadership,27,6,13,5,No,1,1,101.2,79,1,Hot
+LEAD-100779,Google Ads,Webinar2025,Asia,VP,Leadership,20,5,20,5,Yes,4,1,88.43,97,1,Hot
+LEAD-100225,LinkedIn,Spring2025,Australia,Intern,Machine Learning; Data Science; Leadership,37,3,16,7,Yes,1,3,74.45,146,1,Hot
+LEAD-100609,Organic,Spring2025,North America,VP,Strategy; Marketing,42,4,1,10,No,5,1,84.81,13,1,Hot
+LEAD-100127,LinkedIn,Spring2025,Asia,Manager,Data Science; Marketing,18,3,14,10,Yes,1,3,87.7,42,1,Hot
+LEAD-101871,Facebook,Webinar2025,Europe,VP,Data Science,10,10,11,7,No,2,1,49.25,265,0,Cold
+LEAD-100623,Organic,Webinar2025,Europe,Director,Machine Learning; Leadership; Strategy,37,0,29,2,No,1,2,91.04,43,1,Hot
+LEAD-100338,Organic,Spring2025,Australia,Analyst,Machine Learning; Strategy,17,1,6,7,Yes,5,1,99.62,300,1,Warm
+LEAD-100513,Google Ads,Webinar2025,Asia,VP,Marketing,39,0,9,6,No,4,1,83.21,150,1,Cold
+LEAD-101310,Organic,Summer2025,North America,Intern,Data Science,5,7,25,4,Yes,3,1,36.13,141,0,Cold
+LEAD-101697,Google Ads,Webinar2025,Europe,Intern,Marketing; Machine Learning; Data Science,12,10,16,1,No,3,0,34.43,231,0,Warm
+LEAD-100396,Referral,Spring2025,Asia,VP,Strategy,28,9,23,10,Yes,0,1,62.05,258,1,Cold
+LEAD-100708,Organic,Summer2025,Asia,Director,Leadership; Machine Learning; Data Science,37,9,27,5,No,1,3,75.45,73,1,Hot
+LEAD-101386,Google Ads,Summer2025,Asia,Director,Leadership; Data Science; Marketing,18,10,20,5,Yes,0,0,38.36,103,0,Cold
+LEAD-100765,Google Ads,Webinar2025,Asia,Analyst,Leadership,23,7,12,7,No,2,1,85.32,275,1,Hot
+LEAD-100449,Organic,Webinar2025,Europe,VP,Leadership; Marketing,14,3,17,3,No,1,1,92.96,57,1,Hot
+LEAD-100526,Referral,Spring2025,Australia,VP,Data Science; Leadership,35,7,20,11,Yes,5,1,54.27,62,1,Cold
+LEAD-101087,Referral,Summer2025,Australia,Manager,Machine Learning; Leadership; Data Science,13,9,17,0,No,0,1,20.38,18,0,Cold
+LEAD-101595,Referral,Spring2025,Asia,Analyst,Leadership; Strategy,13,16,12,2,No,2,0,66.28,47,0,Warm
+LEAD-101863,LinkedIn,Webinar2025,Europe,Director,Machine Learning; Strategy; Data Science,32,15,12,1,No,0,1,57.32,35,0,Hot
+LEAD-100966,Facebook,Spring2025,Europe,Manager,Data Science,9,14,11,8,No,0,0,55.8,283,0,Cold
+LEAD-100632,Referral,Webinar2025,Australia,Analyst,Marketing; Leadership; Strategy,27,1,1,5,Yes,3,2,68.45,19,1,Hot
+LEAD-101365,Facebook,Spring2025,Asia,Intern,Strategy,23,7,25,3,No,2,1,41.69,258,0,Warm
+LEAD-100631,Google Ads,Spring2025,Australia,VP,Marketing; Machine Learning; Strategy,41,2,14,3,No,4,3,81.95,66,1,Hot
+LEAD-101651,Facebook,Webinar2025,North America,Director,Data Science; Leadership,8,11,18,6,Yes,0,1,28.65,250,0,Warm
+LEAD-100234,Organic,Summer2025,Europe,Analyst,Marketing,25,9,7,11,No,0,2,59.99,91,1,Hot
+LEAD-100723,Referral,Spring2025,North America,Analyst,Marketing,22,6,21,3,No,0,0,61.42,300,1,Cold
+LEAD-100171,LinkedIn,Summer2025,Europe,Intern,Marketing; Machine Learning; Leadership,23,8,4,2,No,0,1,71.79,39,1,Hot
+LEAD-100921,Referral,Webinar2025,Europe,Manager,Marketing; Data Science,23,14,23,0,Yes,2,1,67.71,141,0,Cold
+LEAD-100161,Organic,Summer2025,North America,Director,Marketing,20,3,2,7,Yes,5,3,64.92,264,1,Warm
+LEAD-100451,Organic,Summer2025,Asia,VP,Marketing; Leadership,42,2,28,1,No,4,2,79.9,242,1,Cold
+LEAD-100279,LinkedIn,Summer2025,Europe,Intern,Machine Learning; Marketing; Leadership,39,4,15,8,No,3,0,84.58,93,1,Hot
+LEAD-101584,Organic,Spring2025,Asia,Intern,Data Science; Marketing,7,14,16,9,No,1,1,31.86,187,0,Warm
+LEAD-101025,Facebook,Webinar2025,Europe,Director,Leadership; Machine Learning,10,7,10,4,Yes,3,0,26.67,62,0,Cold
+LEAD-100520,LinkedIn,Spring2025,Europe,Analyst,Machine Learning,41,4,12,9,Yes,2,2,73.66,279,1,Hot
+LEAD-101187,Referral,Summer2025,Asia,Manager,Machine Learning; Marketing,10,20,2,6,No,2,0,53.5,129,0,Warm
+LEAD-100291,Referral,Summer2025,Australia,Intern,Leadership,26,8,19,6,Yes,1,3,65.63,138,1,Warm
+LEAD-100792,LinkedIn,Summer2025,Asia,Analyst,Data Science; Marketing,21,7,30,7,No,5,1,75.38,124,1,Cold
+LEAD-100151,Google Ads,Spring2025,North America,Analyst,Leadership; Data Science; Machine Learning,30,6,11,5,Yes,2,1,52.99,133,1,Hot
+LEAD-101660,LinkedIn,Spring2025,Europe,Manager,Data Science; Marketing,18,12,9,0,No,0,1,41.01,201,0,Hot
+LEAD-101996,LinkedIn,Spring2025,Europe,Intern,Strategy; Machine Learning,2,9,13,1,No,2,0,20.13,145,0,Cold
+LEAD-101364,Referral,Summer2025,Europe,Manager,Strategy; Machine Learning; Marketing,24,19,8,8,No,5,0,40.08,35,0,Cold
+LEAD-101309,Referral,Webinar2025,Asia,Director,Marketing,12,9,3,1,No,5,1,44.56,81,0,Cold
+LEAD-101887,LinkedIn,Summer2025,Asia,Intern,Strategy; Data Science,26,17,28,6,Yes,4,0,70.7,121,0,Hot
+LEAD-100484,Referral,Summer2025,North America,Intern,Strategy,22,2,28,7,Yes,4,1,64.94,153,1,Hot
+LEAD-101547,Google Ads,Webinar2025,Australia,Manager,Machine Learning; Leadership; Data Science,11,13,14,2,No,4,1,60.15,153,0,Cold
+LEAD-101019,Facebook,Webinar2025,Australia,Director,Marketing; Machine Learning,8,8,17,2,No,3,1,17.98,296,0,Cold
+LEAD-100274,Google Ads,Summer2025,Asia,Analyst,Leadership; Marketing,41,8,8,10,Yes,0,1,104.42,288,1,Hot
+LEAD-100267,LinkedIn,Summer2025,North America,Manager,Machine Learning; Data Science,24,6,6,11,Yes,4,2,58.96,49,1,Warm
+LEAD-101041,Organic,Spring2025,North America,Director,Marketing; Leadership,20,15,25,3,No,1,0,48.77,81,0,Cold
+LEAD-100364,LinkedIn,Spring2025,Australia,VP,Leadership,23,7,1,10,No,1,0,50.67,65,1,Cold
+LEAD-100915,Referral,Spring2025,Asia,Intern,Marketing; Strategy,14,19,13,4,No,4,0,40.88,41,0,Warm
+LEAD-101905,Facebook,Spring2025,Europe,Analyst,Strategy; Leadership; Data Science,10,15,17,2,Yes,0,1,66.56,47,0,Cold
+LEAD-101566,Google Ads,Summer2025,North America,Director,Strategy,11,11,16,2,No,1,0,57.47,223,0,Warm
+LEAD-100028,Referral,Spring2025,Asia,Analyst,Strategy; Machine Learning; Marketing,33,7,20,11,No,3,3,87.48,123,1,Hot
+LEAD-100490,Google Ads,Summer2025,Europe,Analyst,Strategy,14,6,17,4,No,2,2,55.2,239,1,Warm
+LEAD-101218,Facebook,Webinar2025,Asia,Intern,Data Science; Machine Learning,11,13,28,4,No,4,0,37.58,102,0,Warm
+LEAD-101346,LinkedIn,Spring2025,Australia,Director,Data Science; Machine Learning,9,9,2,0,No,4,0,37.12,85,0,Hot
+LEAD-101315,Organic,Webinar2025,Australia,Intern,Marketing,19,9,19,6,Yes,5,0,52.72,136,0,Cold
+LEAD-101870,Organic,Webinar2025,Europe,Analyst,Marketing,22,19,22,0,Yes,5,1,56.84,98,0,Cold
+LEAD-101447,Facebook,Spring2025,Europe,Intern,Data Science,22,17,12,7,No,1,0,35.76,43,0,Cold
+LEAD-101592,Organic,Spring2025,Asia,Intern,Machine Learning; Data Science; Leadership,6,6,28,2,No,5,1,54.65,79,0,Warm
+LEAD-100058,Organic,Spring2025,Asia,Director,Strategy; Data Science; Machine Learning,38,8,12,2,Yes,0,0,84.01,180,1,Hot
+LEAD-101424,Referral,Spring2025,Australia,Analyst,Machine Learning,12,15,4,7,No,2,1,62.22,276,0,Hot
+LEAD-101469,Facebook,Webinar2025,Asia,Manager,Marketing,27,19,5,3,No,4,1,29.93,166,0,Cold
+LEAD-100385,Facebook,Webinar2025,Asia,Analyst,Machine Learning; Marketing; Leadership,20,1,13,3,No,0,3,95.57,119,1,Warm
+LEAD-100477,Organic,Summer2025,Europe,Analyst,Data Science,16,9,15,10,No,2,0,94.33,3,1,Cold
+LEAD-101097,Facebook,Webinar2025,Asia,Analyst,Leadership; Machine Learning; Strategy,19,9,0,3,Yes,3,1,18.85,198,0,Warm
+LEAD-100592,Organic,Webinar2025,Europe,Analyst,Machine Learning; Leadership; Strategy,25,1,25,6,Yes,0,3,47.76,44,1,Hot
+LEAD-101203,LinkedIn,Webinar2025,North America,Manager,Leadership; Marketing; Machine Learning,26,16,7,0,No,2,0,60.0,18,0,Cold
+LEAD-101472,Facebook,Spring2025,North America,VP,Machine Learning; Leadership,13,18,21,4,Yes,2,0,28.9,101,0,Hot
+LEAD-101172,Organic,Summer2025,North America,Director,Marketing; Machine Learning; Data Science,14,15,5,8,No,0,1,44.11,240,0,Cold
+LEAD-100493,Google Ads,Webinar2025,Australia,Analyst,Marketing; Machine Learning,18,6,7,13,Yes,1,2,79.01,84,1,Warm
+LEAD-100991,Organic,Webinar2025,Asia,Manager,Data Science; Machine Learning,4,5,22,2,No,2,0,31.37,232,0,Warm
+LEAD-100341,LinkedIn,Webinar2025,North America,Director,Marketing; Leadership,18,8,1,5,Yes,5,3,82.64,122,1,Warm
+LEAD-101201,Google Ads,Spring2025,Australia,Intern,Strategy,29,15,7,6,Yes,4,1,36.96,236,0,Cold
+LEAD-101848,Google Ads,Webinar2025,North America,Intern,Leadership; Data Science; Strategy,22,7,4,1,No,4,1,66.59,70,0,Cold
+LEAD-100400,Organic,Summer2025,Australia,Director,Machine Learning; Leadership,38,6,6,13,No,2,3,72.25,288,1,Cold
+LEAD-101757,Organic,Summer2025,Asia,Analyst,Marketing; Leadership,25,10,9,2,No,3,0,30.22,280,0,Warm
+LEAD-100249,Facebook,Webinar2025,Europe,Intern,Machine Learning,16,0,20,3,Yes,2,3,90.27,174,1,Warm
+LEAD-100975,Referral,Summer2025,North America,Intern,Strategy; Machine Learning,23,5,7,7,No,2,1,31.65,23,0,Cold
+LEAD-100087,Referral,Summer2025,Australia,Analyst,Strategy,16,6,16,4,No,3,3,87.13,72,1,Cold
+LEAD-101115,LinkedIn,Webinar2025,Australia,Manager,Data Science; Leadership; Strategy,12,11,26,1,Yes,5,1,59.74,291,0,Cold
+LEAD-100947,LinkedIn,Summer2025,North America,Analyst,Data Science; Leadership,12,12,12,6,Yes,5,0,34.43,146,0,Cold
+LEAD-100836,Organic,Summer2025,North America,Director,Marketing; Strategy; Machine Learning,24,14,7,1,Yes,3,1,69.97,59,0,Cold
+LEAD-101594,Facebook,Summer2025,North America,Manager,Leadership; Marketing; Machine Learning,10,8,24,4,No,1,1,49.95,282,0,Cold
+LEAD-100987,Organic,Spring2025,Asia,Intern,Machine Learning,4,12,16,4,Yes,0,1,67.95,251,0,Warm
+LEAD-100377,Organic,Webinar2025,North America,Manager,Machine Learning; Marketing,16,9,9,9,No,3,1,86.97,202,1,Hot
+LEAD-100814,Referral,Summer2025,Asia,Manager,Data Science,12,15,25,7,Yes,5,0,30.75,298,0,Warm
+LEAD-100208,Organic,Summer2025,North America,Analyst,Strategy; Data Science; Marketing,22,2,15,5,No,0,3,56.53,290,1,Cold
+LEAD-101164,Facebook,Summer2025,Europe,Intern,Marketing; Data Science,23,10,13,3,No,0,0,27.26,216,0,Cold
+LEAD-100006,LinkedIn,Webinar2025,Australia,Analyst,Strategy; Leadership; Data Science,18,8,28,8,No,5,3,86.19,285,1,Hot
+LEAD-100752,Facebook,Webinar2025,Australia,Manager,Strategy; Machine Learning,39,2,14,3,No,3,3,67.54,196,1,Hot
+LEAD-101944,Referral,Webinar2025,Asia,Intern,Strategy,19,7,2,2,Yes,4,0,54.24,265,0,Cold
+LEAD-100960,Facebook,Spring2025,Europe,VP,Leadership,26,12,26,2,No,3,0,40.0,179,0,Cold
+LEAD-101877,Facebook,Webinar2025,North America,Analyst,Leadership; Data Science; Strategy,1,14,24,1,Yes,2,1,37.97,263,0,Cold
+LEAD-100255,Organic,Webinar2025,Australia,Manager,Data Science,19,3,4,2,Yes,5,3,98.43,87,1,Hot
+LEAD-100238,Organic,Webinar2025,Asia,Analyst,Data Science; Leadership,35,8,2,5,No,4,2,101.15,140,1,Cold
+LEAD-101207,Organic,Webinar2025,Australia,Analyst,Data Science; Leadership,10,7,8,0,Yes,2,1,48.5,136,0,Cold
+LEAD-101289,Organic,Webinar2025,Australia,Manager,Marketing; Machine Learning; Leadership,8,18,22,0,Yes,3,1,32.59,32,0,Cold
+LEAD-101984,Referral,Webinar2025,Asia,Manager,Data Science,9,13,1,3,No,0,0,26.63,296,0,Cold
+LEAD-100182,Organic,Spring2025,Australia,Intern,Marketing; Machine Learning; Strategy,22,0,7,4,No,0,1,84.35,295,1,Hot
+LEAD-100598,Facebook,Summer2025,North America,Analyst,Strategy,37,7,12,5,No,4,2,65.88,264,1,Warm
+LEAD-100731,Facebook,Spring2025,Europe,Director,Data Science; Marketing; Machine Learning,32,1,7,10,Yes,1,1,69.3,126,1,Cold
+LEAD-101412,Google Ads,Spring2025,Asia,Analyst,Leadership; Marketing,30,20,30,0,Yes,5,1,28.33,196,0,Cold
+LEAD-101480,Facebook,Summer2025,Asia,Manager,Marketing; Data Science,16,9,17,8,Yes,2,0,55.45,57,0,Cold
+LEAD-100040,LinkedIn,Summer2025,Europe,VP,Marketing,24,9,21,12,No,4,3,72.37,1,1,Hot
+LEAD-100288,Referral,Spring2025,Europe,Director,Strategy,33,1,19,8,No,3,2,76.83,35,1,Cold
+LEAD-100971,Organic,Webinar2025,North America,Analyst,Data Science,14,11,19,5,No,1,1,69.57,125,0,Cold
+LEAD-100622,Facebook,Webinar2025,Australia,Analyst,Strategy; Leadership,31,10,22,5,Yes,0,1,82.32,123,1,Warm
+LEAD-100054,Facebook,Summer2025,North America,Manager,Data Science,33,0,21,13,No,1,2,91.53,185,1,Warm
+LEAD-101016,Facebook,Spring2025,Asia,VP,Machine Learning,14,7,16,8,No,5,1,45.94,226,0,Warm
+LEAD-100181,Google Ads,Spring2025,North America,Intern,Strategy,32,4,1,3,Yes,1,1,68.29,125,1,Hot
+LEAD-101981,LinkedIn,Summer2025,Asia,Analyst,Marketing; Strategy; Machine Learning,3,10,15,2,No,3,1,17.95,180,0,Warm
+LEAD-101829,LinkedIn,Spring2025,Europe,VP,Strategy; Machine Learning; Leadership,4,14,24,3,Yes,0,0,42.77,251,0,Cold
+LEAD-101519,LinkedIn,Summer2025,Asia,Manager,Data Science; Marketing,26,9,13,5,Yes,1,1,44.68,59,0,Warm
+LEAD-101817,Google Ads,Spring2025,North America,Intern,Leadership,9,13,3,7,Yes,4,0,25.85,236,0,Warm
+LEAD-101755,Organic,Summer2025,Australia,Intern,Strategy; Data Science,27,6,6,6,No,0,0,27.71,174,0,Cold
+LEAD-101787,Referral,Spring2025,Europe,Manager,Machine Learning,28,16,30,7,No,1,1,33.37,160,0,Warm
+LEAD-101820,Google Ads,Summer2025,North America,Director,Marketing; Data Science,9,12,17,4,No,4,1,29.17,277,0,Cold
+LEAD-100547,Google Ads,Summer2025,Asia,Director,Leadership; Marketing,28,0,18,12,Yes,4,3,66.28,109,1,Hot
+LEAD-100864,Facebook,Summer2025,North America,Intern,Data Science,5,14,2,3,Yes,3,0,71.57,37,0,Cold
+LEAD-101045,Referral,Spring2025,North America,Director,Data Science; Machine Learning,10,11,19,2,Yes,5,0,61.69,254,0,Cold
+LEAD-101934,Facebook,Spring2025,Australia,Analyst,Strategy; Marketing; Data Science,12,6,20,2,Yes,4,0,27.91,273,0,Cold
+LEAD-101735,LinkedIn,Webinar2025,Europe,Analyst,Leadership; Marketing; Machine Learning,24,16,21,3,Yes,2,1,35.04,249,0,Warm
+LEAD-100801,Google Ads,Spring2025,Australia,Manager,Marketing,7,7,3,6,Yes,1,0,54.79,236,0,Warm
+LEAD-101432,Organic,Summer2025,Australia,Intern,Strategy,27,6,15,2,Yes,3,1,66.43,173,0,Warm
+LEAD-101575,Facebook,Summer2025,Australia,Director,Strategy; Data Science,4,8,3,3,No,2,1,27.13,138,0,Cold
+LEAD-101000,Organic,Summer2025,Australia,Analyst,Strategy,22,15,3,9,No,2,1,35.01,213,0,Cold
+LEAD-100522,Organic,Spring2025,Europe,Manager,Leadership; Data Science; Machine Learning,23,10,3,4,No,0,2,87.58,294,1,Hot
+LEAD-101825,LinkedIn,Summer2025,North America,VP,Data Science,20,18,30,0,No,5,0,23.0,21,0,Cold
+LEAD-100250,LinkedIn,Webinar2025,Europe,Analyst,Strategy; Data Science; Machine Learning,39,5,23,10,Yes,5,2,73.32,219,1,Hot
+LEAD-101762,Organic,Webinar2025,Asia,Intern,Marketing,7,18,10,5,Yes,3,0,32.54,156,0,Warm
+LEAD-101292,LinkedIn,Webinar2025,Australia,Director,Data Science; Strategy; Marketing,26,5,29,0,No,4,0,44.49,133,0,Warm
+LEAD-101860,Organic,Summer2025,Asia,Analyst,Strategy; Machine Learning,17,12,9,5,Yes,3,1,64.03,38,0,Cold
+LEAD-101276,LinkedIn,Webinar2025,Asia,Intern,Marketing; Leadership; Strategy,24,17,13,9,No,4,0,26.52,293,0,Warm
+LEAD-101266,Facebook,Spring2025,Europe,Manager,Data Science,15,9,1,6,No,3,1,31.89,119,0,Cold
+LEAD-101579,Organic,Summer2025,Europe,Analyst,Marketing; Machine Learning,18,8,29,3,No,5,1,59.99,226,0,Hot
+LEAD-101303,Facebook,Spring2025,Asia,Analyst,Strategy; Marketing; Leadership,6,17,12,5,No,1,0,56.7,121,0,Cold
+LEAD-101998,LinkedIn,Spring2025,Australia,VP,Data Science; Leadership; Machine Learning,6,18,28,7,No,1,1,28.15,65,0,Cold
+LEAD-101026,Referral,Summer2025,Europe,Intern,Machine Learning; Leadership; Strategy,26,9,7,5,No,0,0,30.95,191,0,Cold
+LEAD-101878,Google Ads,Webinar2025,Europe,VP,Marketing,20,11,28,4,Yes,4,0,26.79,91,0,Cold
+LEAD-100236,LinkedIn,Spring2025,Europe,VP,Marketing,15,5,18,3,No,4,1,72.2,252,1,Hot
+LEAD-100500,Referral,Summer2025,Asia,VP,Machine Learning; Data Science; Strategy,25,6,6,9,No,5,2,83.54,295,1,Warm
+LEAD-100327,Facebook,Webinar2025,North America,VP,Data Science,18,6,15,13,No,1,0,100.8,226,1,Cold
+LEAD-100962,Facebook,Summer2025,Asia,Manager,Leadership,28,16,27,6,Yes,3,0,68.78,96,0,Cold
+LEAD-101778,Referral,Spring2025,Australia,Director,Data Science; Marketing,10,19,6,4,Yes,4,1,19.47,296,0,Hot
+LEAD-101802,LinkedIn,Summer2025,Europe,Director,Data Science; Machine Learning; Leadership,7,6,1,8,Yes,5,1,71.91,133,0,Cold
+LEAD-100476,Facebook,Spring2025,Europe,Director,Data Science; Machine Learning; Leadership,30,4,6,12,No,0,0,95.58,276,1,Hot
+LEAD-100169,Google Ads,Summer2025,Asia,Analyst,Marketing; Strategy,34,4,2,4,Yes,1,0,60.38,175,1,Hot
+LEAD-100934,Facebook,Summer2025,Australia,Director,Leadership; Machine Learning; Data Science,31,15,10,1,No,5,0,55.61,33,0,Cold
+LEAD-101137,LinkedIn,Summer2025,Asia,Analyst,Marketing; Strategy; Data Science,24,9,25,8,No,1,0,57.52,141,0,Cold
+LEAD-100813,Facebook,Spring2025,Asia,Analyst,Marketing,7,19,30,4,No,3,0,64.23,271,0,Warm
+LEAD-101052,Referral,Webinar2025,North America,Director,Strategy,22,12,17,2,Yes,0,0,49.74,1,0,Cold
+LEAD-100199,Organic,Spring2025,Asia,Analyst,Marketing; Strategy; Leadership,32,3,14,4,No,5,0,74.55,47,1,Hot
+LEAD-101340,Facebook,Summer2025,Asia,Analyst,Data Science; Marketing; Leadership,3,8,0,6,Yes,3,1,42.3,197,0,Warm
+LEAD-100286,Organic,Webinar2025,Europe,VP,Strategy; Machine Learning; Leadership,26,10,18,4,Yes,2,1,82.6,154,1,Warm
+LEAD-101525,Facebook,Webinar2025,Europe,Analyst,Marketing,26,19,19,0,No,5,1,54.48,162,0,Warm
+LEAD-100379,Referral,Summer2025,Asia,Intern,Strategy; Leadership; Marketing,19,8,19,7,Yes,4,2,104.3,229,1,Hot
+LEAD-101324,Google Ads,Webinar2025,North America,Manager,Strategy,15,18,9,5,No,4,0,39.36,9,0,Hot
+LEAD-100129,Facebook,Summer2025,North America,Director,Data Science,35,4,1,10,No,3,3,53.71,113,1,Cold
+LEAD-101410,Referral,Webinar2025,Asia,VP,Strategy; Data Science,7,8,18,5,Yes,5,0,66.24,97,0,Cold
+LEAD-101487,Google Ads,Spring2025,Asia,Manager,Leadership,16,14,24,7,No,3,1,31.08,128,0,Cold
+LEAD-100050,Referral,Spring2025,Asia,Intern,Marketing; Machine Learning; Data Science,28,0,11,4,Yes,3,1,63.58,263,1,Warm
+LEAD-100767,Google Ads,Spring2025,Australia,Director,Strategy; Machine Learning; Leadership,31,10,15,8,No,3,0,94.6,75,1,Cold
+LEAD-100821,LinkedIn,Webinar2025,Australia,Director,Machine Learning,28,13,6,0,Yes,3,1,38.56,108,0,Warm
+LEAD-101221,Google Ads,Summer2025,Australia,Director,Marketing; Data Science,16,19,12,5,No,4,0,17.96,294,0,Cold
+LEAD-101945,Referral,Webinar2025,Asia,Manager,Strategy; Data Science; Machine Learning,19,18,5,0,No,4,0,63.05,293,0,Warm
+LEAD-101406,Referral,Summer2025,North America,Director,Data Science; Marketing; Leadership,29,18,0,3,Yes,1,1,45.87,26,0,Cold
+LEAD-100898,Referral,Spring2025,Europe,Analyst,Data Science,29,6,22,0,Yes,1,0,50.01,91,0,Warm
+LEAD-101999,Google Ads,Summer2025,North America,Manager,Data Science,3,5,30,3,Yes,4,0,50.77,284,0,Warm
+LEAD-100790,Referral,Webinar2025,North America,Manager,Machine Learning,26,8,10,4,No,0,1,70.56,97,1,Hot
+LEAD-100633,Organic,Summer2025,Asia,Intern,Data Science,28,8,20,3,Yes,4,3,75.12,214,1,Hot
+LEAD-101103,LinkedIn,Summer2025,Europe,Director,Leadership; Data Science,8,10,10,6,No,3,0,38.36,74,0,Warm
+LEAD-100390,LinkedIn,Spring2025,Asia,Manager,Leadership; Machine Learning,34,2,22,4,No,4,0,74.05,8,1,Cold
+LEAD-100759,Facebook,Spring2025,Europe,Director,Leadership; Strategy; Marketing,22,3,7,3,No,1,0,82.22,242,1,Hot

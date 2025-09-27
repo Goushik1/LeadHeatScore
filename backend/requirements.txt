@@ -1,0 +1,11 @@
+flask
+flask-cors
+pandas
+scikit-learn
+xgboost
+matplotlib
+langchain
+sentence-transformers
+tqdm
+requests
+python-dotenv
