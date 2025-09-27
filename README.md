@@ -26,17 +26,12 @@ pip install -r requirements.txt
 
 ## Frontend Requirements
 
-# Node.js
-
-# React 19+
-
-# Tailwind CSS
-
-# Chart.js
-
-# Axios
-
-# PapaParse
+Node.js
+React 19+
+Tailwind CSS
+Chart.js
+Axios
+PapaParse
 
 # Install frontend dependencies and start
 
@@ -48,7 +43,23 @@ npm start
 
 # Place CSV files inside the /data directory
 
-# Configure API targets in a .env file
+# Configuration
+
+Create a .env file in the root directory and add your credentials:
+
+# MongoDB
+
+MONGO_URI="your_mongodb_connection_string"
+
+# Elasticsearch
+
+ELASTIC_USERNAME="your_elasticsearch_username"
+ELASTIC_PASSWORD="your_elasticsearch_password"  
+ELASTIC_HOST="your_elasticsearch_host"
+
+# API Key
+
+API_KEY="your_api_key_here"
 
 ## Run Instructions
 
