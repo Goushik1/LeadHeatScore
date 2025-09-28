@@ -57,14 +57,14 @@ npm start
 
 ## API Usage
 
-| Endpoint       | Method | Description       |
-| -------------- | ------ | ----------------- |
-| /score         | POST   | Score single lead |
-| /scorecsv      | POST   | Batch score CSV   |
-| /metrics       | GET    | Model metrics     |
-| /recommend     | POST   | Outreach message  |
-| /calibration   | POST   | Calibration plot  |
-| /abtestscore   | POST   | AB score submit   |
-| /abtestsummary | GET    | AB score summary  |
+| Endpoint        | Method | Description       |
+| --------------- | ------ | ----------------- |
+| /score          | POST   | Score single lead |
+| /score_csv      | POST   | Batch score CSV   |
+| /metrics        | GET    | Model metrics     |
+| /recommend      | POST   | Outreach message  |
+| /calibration    | POST   | Calibration plot  |
+| /abtest_score   | POST   | AB score submit   |
+| /abtest_summary | GET    | AB score summary  |
 
 ---
