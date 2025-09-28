@@ -1,0 +1,230 @@
+openapi: 3.0.0
+info:
+  title: Lead Classification and Outreach API
+  version: 1.0.0
+  description: API for Lead scoring, metrics, messaging recommendations, calibration, and A/B testing.
+
+servers:
+  - url: http://localhost:5000
+    description: Local server
+
+paths:
+  /score:
+    post:
+      summary: Score a single lead
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                lead_json:
+                  type: object
+                  description: Lead features in JSON format
+              required:
+                - lead_json
+      responses:
+        "200":
+          description: Classification result with label, probability, and top features
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  class:
+                    type: string
+                    example: Hot
+                  prob:
+                    type: number
+                    format: float
+                    example: 0.86
+                  top_features:
+                    type: array
+                    items:
+                      type: array
+                      items:
+                        oneOf:
+                          - type: string
+                          - type: number
+
+  /score_csv:
+    post:
+      summary: Score multiple leads from CSV or Excel upload
+      requestBody:
+        required: true
+        content:
+          multipart/form-data:
+            schema:
+              type: object
+              properties:
+                file:
+                  type: string
+                  format: binary
+                  description: CSV or Excel file with lead data
+      responses:
+        "200":
+          description: Scored leads with full details and top 3 per class
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  scored_leads:
+                    type: array
+                    items:
+                      type: object
+                  top_3_per_class:
+                    type: array
+                    items:
+                      type: object
+  /metrics:
+    get:
+      summary: Get model evaluation metrics and reliability plot
+      responses:
+        "200":
+          description: Metrics and calibration plot
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  f1_macro:
+                    type: number
+                    example: 0.97
+                  confusion_matrix:
+                    type: array
+                    items:
+                      type: array
+                      items:
+                        type: integer
+                  roc_auc:
+                    type: number
+                    example: 1.0
+                  brier_score:
+                    type: number
+                    example: 0.022
+                  reliability_plot:
+                    type: string
+                    description: Base64 encoded PNG image
+
+  /recommend:
+    post:
+      summary: Get personalized outreach message
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                lead_json:
+                  type: object
+                  description: Lead features and context
+              required:
+                - lead_json
+      responses:
+        "200":
+          description: Personalized outreach message response
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  lead_id:
+                    type: string
+                  channel:
+                    type: string
+                  message:
+                    type: string
+                  rationale:
+                    type: string
+                  references:
+                    type: string
+                  source:
+                    type: string
+
+  /calibration:
+    post:
+      summary: Get Brier score and reliability plot for given true and predicted probabilities
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                y_true:
+                  type: array
+                  items:
+                    type: integer
+                y_prob:
+                  type: array
+                  items:
+                    type: number
+              required:
+                - y_true
+                - y_prob
+      responses:
+        "200":
+          description: Calibration metrics and plot
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  brier_score:
+                    type: number
+                  reliability_plot:
+                    type: string
+                    description: Base64 encoded PNG image
+
+  /abtest_score:
+    post:
+      summary: Submit A/B test rubric score
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                message_type:
+                  type: string
+                  enum: [template, rag]
+                score:
+                  type: integer
+                  minimum: 1
+                  maximum: 5
+              required:
+                - message_type
+                - score
+      responses:
+        "200":
+          description: Confirmation of score submission
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    example: success
+
+  /abtest_summary:
+    get:
+      summary: Get average rubric scores for message types
+      responses:
+        "200":
+          description: Average scores for template and rag messaging
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  Template_Only:
+                    type: number
+                    example: 3.8
+                  RAG_Personalized:
+                    type: number
+                    example: 4.5

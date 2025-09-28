@@ -1,88 +1,70 @@
-# Project Dashboard Setup
+# Lead Classification & Outreach Platform
 
-## Backend Requirements (requirements.txt)
+This project is a full-stack application for lead scoring, outreach recommendation, and performance metrics visualization. It combines a Python (Flask) backend and React.js dashboard for interactive data handling.
 
-flask
-flask-cors
-pandas
-scikit-learn
-xgboost
-matplotlib
-langchain
-langchain-groq
-sentence-transformers
-tqdm
-requests
-python-dotenv
-pymongo
-elasticsearch
-numpy
+# 1. Create and activate a Python virtual environment (backend)
 
-# Python ≥ 3.10 required
+```
+cd backend
+python -m venv venv
+venv\Scripts\activate
+```
 
-# Install backend dependencies
+# 2. Install backend requirements
 
 pip install -r requirements.txt
 
-## Frontend Requirements
+# 3. Add your environment variables to a .env file
 
-Node.js
-React 19+
-Tailwind CSS
-Chart.js
-Axios
-PapaParse
+Create a file named `.env` in the root directory with the following content:
 
-# Install frontend dependencies and start
+```
+MongoDB
+MONGO_URI="your_mongodb_connection_string"
 
+Elasticsearch
+ELASTIC_USERNAME="your_elasticsearch_username"
+ELASTIC_PASSWORD="your_elasticsearch_password"
+ELASTIC_HOST="your_elasticsearch_host"
+
+API Key
+API_KEY="your_api_key_here"
+```
+
+# 4. Start the Flask backend
+
+python app.py
+
+# By default, this serves at http://localhost:5000
+
+# 5. Set up and run the frontend (React dashboard)
+
+```
 cd frontend
 npm install
 npm start
+```
 
-## Data Setup
+# The React app usually runs at http://localhost:3000
 
-# Place CSV files inside the /data directory
+# 6. Access the app
 
-# Configuration
+# - Flask backend API at: http://localhost:5000
 
-Create a .env file in the root directory and add your credentials:
+# - React dashboard at: http://localhost:3000
 
-# MongoDB
+---
 
-MONGO_URI="your_mongodb_connection_string"
+## API Usage
 
-# Elasticsearch
+| Endpoint       | Method | Description       |
+| -------------- | ------ | ----------------- |
+| /score         | POST   | Score single lead |
+| /scorecsv      | POST   | Batch score CSV   |
+| /metrics       | GET    | Model metrics     |
+| /recommend     | POST   | Outreach message  |
+| /calibration   | POST   | Calibration plot  |
+| /abtestscore   | POST   | AB score submit   |
+| /abtestsummary | GET    | AB score summary  |
 
-ELASTIC_USERNAME="your_elasticsearch_username"
-ELASTIC_PASSWORD="your_elasticsearch_password"  
-ELASTIC_HOST="your_elasticsearch_host"
-
-# API Key
-
-API_KEY="your_api_key_here"
-
-## Run Instructions
-
-# 1. Start the Flask backend
-
-cd backend
-python app.py
-
-# 2. Launch the React frontend (in separate terminal)
-
-cd frontend
-npm start
-
-# 3. Open the dashboard in your browser at:
-
-# http://localhost:3000
-
-## Available API Endpoints:
-
-# /score
-
-# /metrics
-
-# /abtestscore
-
-# /abtestsummary
+---
