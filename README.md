@@ -12,7 +12,9 @@ venv\Scripts\activate
 
 # 2. Install backend requirements
 
+```
 pip install -r requirements.txt
+```
 
 # 3. Add your environment variables to a .env file
 
@@ -33,9 +35,9 @@ API_KEY="your_api_key_here"
 
 # 4. Start the Flask backend
 
+```
 python app.py
-
-# By default, this serves at http://localhost:5000
+```
 
 # 5. Set up and run the frontend (React dashboard)
 
@@ -44,8 +46,6 @@ cd frontend
 npm install
 npm start
 ```
-
-# The React app usually runs at http://localhost:3000
 
 # 6. Access the app
 
