@@ -2,6 +2,8 @@
 
 This project is a full-stack application for lead scoring, outreach recommendation, and performance metrics visualization. It combines a Python (Flask) backend and React.js dashboard for interactive data handling.
 
+![System Architecture](architecture.png)
+
 # 1. Create and activate a Python virtual environment (backend)
 
 ```
@@ -68,3 +70,18 @@ npm start
 | /abtest_summary | GET    | AB score summary  |
 
 ---
+
+## Decisions:
+
+- Logistic Regression used as baseline classifier; XGBoost chosen for improved nonlinear performance and boosting
+- Categorical variables encoded using one-hot encoding for model compatibility
+- Macro F1 score selected as main metric for model evaluation and selection
+- LangChain combined with Groq LLM powers agentic outreach with dynamic message generation
+- MongoDB used to store vector embeddings enabling semantic vector search for lead retrieval
+- Manual AB test rubric scores stored in-memory during development; plans to migrate to persistent DB (e.g., MongoDB)
+
+## Trade-Offs:
+
+- Lightweight models (Logistic Regression) offer lower latency vs stronger accuracy but higher latency of XGBoost
+- API responses designed to be JSON-safe with sensitive attributes minimized to comply with data security and privacy
+- Agentic RAG approach improves outreach personalization and dynamism but incurs higher inference and compute costs compared to template-only messaging

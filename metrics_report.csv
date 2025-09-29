@@ -1,0 +1,8 @@
+KPI,Value,Comments
+Macro F1,0.97,High balanced accuracy
+ROC AUC,1.0,Excellent class separation
+Brier Score,0.022,Well calibrated probabilities
+Confusion Matrix,"[[177, 3],[5, 115]]",2x2 matrix showing few misclassifications
+Inference Latency (LR),0.1s,Fast inference (Logistic Regression)
+Inference Latency (XGB),0.3s,Slower but more accurate inference (XGBoost)
+Cost per RAG Msg,$0.01,Estimated inference cost for personalized messaging (Groq API)
